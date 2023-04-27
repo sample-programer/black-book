@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BLACK BOOK</title>
+</head>
+<body bgcolor="black" text="white" link="white" vlink="white">
+  <font size="5" face="ANDALUS" align="center">
+  <!--الجزء العلوي من الصفحة-->
+<header>
+  <div align>
+  <!--"<style>"حتى نهايةCSSالجزءهذا بلغة-->
+  <style>
+        /* Hide the checkbox */
+        #hamburger {
+          display: none;
+        }
+      
+        /* Show the hamburger icon */
+        label[for="hamburger"] {
+          display: block;
+          cursor: pointer;
+          font-size: 30px;
+        }
+      
+        /* Hide the menu items */
+        #hamitems {
+          display: none;
+        }
+      
+        /* Show the menu items when the checkbox is checked */
+        #hamburger:checked ~ #hamitems {
+          display: block;
+        }
+      </style>
+      </div>
+      <nav id="hamnav">
+        <!-- Hamburger button -->
+        <label position: fixed;
+        top: 20px;
+        left: 20px; for="hamburger">&#9776;</label>
+        <input type="checkbox" id="hamburger"/>
+      
+        <!-- Menu items -->
+        <div id="hamitems">
+          <a href="Main.html">الصفحة الرئيسية</a>
+          <a href="about.html">من نحن</a>
+          <a href="contact.html">تواصل معنا</a>
+        </div>
+      </nav>
+</header>
+
+<center>
+<form method="post" action="mailto:mohanndd14@gmail.com">
+  <input type="text" name="contact">
+  <input type="submit" value="">
+</form>
+</center>
+</font>
+<footer>
+    
+</footer>
+</body>
+</html>
